@@ -38,16 +38,41 @@
 }
 
 
+.playerCar {
+    position: absolute;
+    height:80px;
+    width:40px;
+    bottom:60px;
+    left: 250px;
+    border-radius : 5px;
+    background-image: url(car1.png);
+    background-size:cover;
+    z-index: 100;
+}
+
+.otherCar{
+    position:absolute;
+    height: 80px;
+    width: 40px;
+    top: 0px;
+    left :0px;
+    border-radius: 5px;
+    background-image: url(car2.png);
+    z-index:99;
+    text-align:center;
+
+}
+
 .road{
-    position: absolute;height: 50px;
-       width: 250px;
-       height: 55px;
-       top:0;
-       left:200px;
-       text-align: center;
-       color:white;
-       background-color: #444;
-       border-radius: 2px;
+    position: absolute;
+    height: 50px;
+    width: 250px;
+    top:0;
+    left:200px;
+    text-align: center;
+    color:white;
+    background-color: #444;
+    border-radius: 2px;
    }   
    .road:before{
        content: "|";
